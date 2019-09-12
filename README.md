@@ -7,7 +7,7 @@ Goals
 
 1. Treatment of variables
 
-2.Use of loop while
+2. Use of loop while
 
 3. Use of conditional if-else
 
