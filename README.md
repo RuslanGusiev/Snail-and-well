@@ -5,12 +5,13 @@ TIP: http://puzzles.nigelcoldwell.co.uk/sixtytwo.htm
 
 Goals
 
-Treatment of variables
-Use of loop while
+1. Treatment of variables
 
-Use of conditional if-else
+2.Use of loop while
 
-Print in console
+3. Use of conditional if-else
+
+4. Print in console
 
 
 Bonus
@@ -18,10 +19,11 @@ Bonus
 The distance traveled by the snail is now defined by a list.
 
 advance_cm = [30, 21, 33, 77, 44, 45, 23, 45, 12, 34, 55]
-How long does it take to raise the well?
 
-What is its maximum displacement in one day? And its minimum?
+1. How long does it take to raise the well?
 
-What is its average speed during the day?
+2. What is its maximum displacement in one day? And its minimum?
 
-What is the standard deviation of its displacement during the day?
+3. What is its average speed during the day?
+
+4. What is the standard deviation of its displacement during the day?
