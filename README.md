@@ -4,10 +4,14 @@ A snail falls at the bottom of a 125 cm well. Each day the snail rises 30 cm. Bu
 TIP: http://puzzles.nigelcoldwell.co.uk/sixtytwo.htm
 
 Goals
+
 Treatment of variables
 Use of loop while
+
 Use of conditional if-else
+
 Print in console
+
 
 Bonus
 
