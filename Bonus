@@ -1,8 +1,11 @@
+import numpy as np
+
 height = 125
 days = 0
 avg_progress = 0
 max_displacement = 0
 min_displacement = 0
+new_list = []
 advance_cm = [30, 21, 33, 77, 44, 45, 23, 45, 12, 34, 55]
 night_retreat = 20
 accumulated_distance = 0
@@ -23,7 +26,7 @@ print('Max Displacement = ', max_displacement)
 min_displacement = min(advance_cm) - night_retreat
 print('Min Displacement = ', min_displacement)
 
-for j in range(len(advance_cm)):
-    avg_progress += advance_cm[j] - night_retreat
-avg_progress = avg_progress / len(advance_cm)
-print('Average progress = ', avg_progress)
+for i in range(len(advance_cm)):
+    new_list.append(advance_cm[i] - night_retreat)
+print('Average Progress = ', np.mean(new_list))
+print('Standard Deviation = ', np.std(new_list))
