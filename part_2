@@ -1,0 +1,21 @@
+height = 125
+days = 0
+advance_cm = [30, 21, 33, 77, 44, 45, 23, 45, 12, 34, 55]
+night_retreat = 20
+accumulated_distance = 0
+for i in range(len(advance_cm)):
+    if accumulated_distance + advance_cm[i] < height:
+        accumulated_distance += advance_cm[i] - night_retreat
+        days += 1
+        i += 1
+    else:   
+        days += 1
+        break
+    
+print('Days = ', days)
+
+max_displacement = max(advance_cm) - night_retreat
+print('Max Displacement = ', max_displacement)
+
+min_displacement = min(advance_cm) - night_retreat
+print('Min Displacement = ', min_displacement)
