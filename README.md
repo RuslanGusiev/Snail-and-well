@@ -10,6 +10,7 @@ Use of conditional if-else
 Print in console
 
 Bonus
+
 The distance traveled by the snail is now defined by a list.
 
 advance_cm = [30, 21, 33, 77, 44, 45, 23, 45, 12, 34, 55]
